@@ -1,5 +1,5 @@
 "data structures-arrays"
-#assignment
+#assignment 1
 expenses={'January':2200, 'February':2350,'March':2000,'April':2130,'May':2190}
 #1. In Feb, how many dollars you spent extra compare to January?
 #print((expenses['February']-expenses['January']))
@@ -43,7 +43,8 @@ print(heros)
 #(Hint. Use dir() functions to list down all functions available in list)
 heros.sort()
 print('sorted list in ascending order:',heros)
-#3.Create a list of all odd numbers between 1 and a max number
+#assignment 3
+#Create a list of all odd numbers between 1 and a max number
 #Max number is something you need to take from a user using input() function
 n=int(input('Enter a number'))
 odd_num=[]
@@ -51,4 +52,4 @@ for i in range(1,n+1):
     if i%2!=0:
         odd_num.append(i)
         print(i)
-#print('\n')
+print('\n')
